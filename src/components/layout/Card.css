@@ -1,0 +1,25 @@
+.card{
+    border-radius: 10px;
+    overflow: hidden;
+    border: 3px solid;
+    font-family: 'Sansita Swashed', cursive;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    max-width: 300px;
+}
+
+.card .title{
+    font-weight: bold;
+    padding: 5px;
+    justify-content: center;
+    display: flex;
+}
+
+.card .content{
+    background-color: white;
+    flex: 1;
+    color: black;
+    padding: 20px;
+}
