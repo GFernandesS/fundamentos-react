@@ -6,7 +6,8 @@ import Aleatory from './components/basic/Aleatory'
 import Card from './components/layout/Card'
 import Family from './components/basic/Family'
 import FamilyMember from './components/basic/FamilyMember'
-import StudentList from './components/basic/Listas/StudentList'
+import StudentList from './components/basic/lists/StudentList'
+import ProductList from './components/basic/lists/ProductList'
 
 export default _ => {
     return (
@@ -30,6 +31,9 @@ export default _ => {
                 </Card>
                 <Card title="#04 - Repetição">
                     <StudentList/>
+                </Card>
+                <Card title="#05 - Repetição com produtos">
+                    <ProductList/>
                 </Card>
             </div>
         </div>

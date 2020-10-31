@@ -1,10 +1,10 @@
 import React from 'react'
-import studentList from '../../../data/alunos'
+import studentList from '../../../data/students'
 
 export default () => {
     let students = studentList.map(student => {
         return (
-            <li>
+            <li key={student.id}>
                 {student.nome} - {((student.nota1 + student.nota2)/2).toFixed(1)}
             </li>
         );

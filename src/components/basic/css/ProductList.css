@@ -1,0 +1,20 @@
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+table, td{
+    border: 1px solid black;
+}
+
+.par{
+    background-color: darkseagreen;
+}
+
+th{
+    border: 1px solid black;
+    font-weight: bold;
+    background-color: darkgrey;
+}
