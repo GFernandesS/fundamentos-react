@@ -7,10 +7,12 @@ import Card from './components/layout/Card'
 import Family from './components/basic/Family'
 import FamilyMember from './components/basic/FamilyMember'
 import StudentList from './components/basic/lists/StudentList'
-import ProductList from './components/basic/lists/ProductList'
+import ProductList from './components/basic/lists/ProductList' 
 import ParOuImpar from './components/conditional/ParOuImpar'
 import ConditionalRenderize from './components/conditional/conditional'
 import Funcionario from './components/conditional/Funcionario'
+import DirectFather from './components/directCommunication/DirectFather'
+import IndirectFather from './components/indirectCommunication/IndirectFather'
 
 export default _ => {
     return (
@@ -45,6 +47,12 @@ export default _ => {
                     <ConditionalRenderize name="Schiavone" isVisible={true}>
                         <Funcionario/>
                     </ConditionalRenderize>
+                </Card>
+                <Card title="#08 - Comunicação direta" color="green">
+                    <DirectFather></DirectFather>
+                </Card>
+                <Card title="#09 - Comunicação indireta">
+                    <IndirectFather></IndirectFather>
                 </Card>
             </div>
         </div>
